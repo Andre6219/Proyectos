@@ -87,7 +87,7 @@ void loop()
       if (isnan(ValHum) || isnan(ValTem)) {
           ValHum = 0;
           ValTem = 0;
-          Serial.println(F("Error de lectura del sensor DHT11!"));
+          Serial.println(F("Error de lectura del sensor DHT22!"));
       }
               
       Serial.print("Humedad: ");Serial.print(ValHum);Serial.print("%  Temperatura: "); Serial.print(ValTem);Serial.println("°C");
